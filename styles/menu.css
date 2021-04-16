@@ -92,3 +92,11 @@ body {
   font-size: 150px;
   top: 120px;
 }
+
+.bottom-left {
+  color: white;
+  position: absolute;
+  left: 16px;
+  font-size: 30px;
+  top: 450px;
+}
