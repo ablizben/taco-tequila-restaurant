@@ -77,6 +77,20 @@ body {
 }
 /*# sourceMappingURL=menu.css.map */
 
+/* About Section */
+
+#about-us-container {
+  display: flex;
+}
+
+.about-us-header {
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
+}
+
 .top-left-first {
   color: white;
   position: absolute;
@@ -99,4 +113,55 @@ body {
   left: 16px;
   font-size: 30px;
   top: 450px;
+}
+
+/* Menu Section */
+
+#menu-container {
+  font-family: "Shadows Into Light", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-header {
+  text-align: center;
+  font-size: 10vh;
+}
+
+.menu-submenu {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.left-menu {
+  padding: 5px;
+  margin-right: 100px;
+}
+
+.right-menu {
+  padding: 5px;
+}
+
+.appetizer-header {
+  text-align: center;
+}
+
+.appetizer-header,
+.tacos-header,
+.entrees-header,
+.desserts-header,
+.beverages-header {
+  font-size: 3vh;
+  text-decoration: underline;
+}
+
+.beverages-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-beverage {
+  margin-right: 80px;
 }
