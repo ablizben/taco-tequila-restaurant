@@ -3,6 +3,12 @@ body {
   font-family: "Muli", sans-serif;
 }
 
+#about-us-container,
+#menu-container {
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
 .menu {
   font-weight: 100;
   background: #efefef;
@@ -122,6 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 50px;
 }
 
 .menu-header {
@@ -138,30 +145,152 @@ body {
 .left-menu {
   padding: 5px;
   margin-right: 100px;
+  width: 50%;
 }
 
 .right-menu {
   padding: 5px;
+  width: 50%;
 }
 
-.appetizer-header {
-  text-align: center;
+/* Appetizers */
+
+.appetizer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.appetizer-header,
-.tacos-header,
-.entrees-header,
-.desserts-header,
-.beverages-header {
+.left-app {
+  margin-right: 80px;
+}
+
+/* Tacos */
+
+.tacos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tacos-header {
+  margin-top: 10px;
+}
+
+.left-tacos {
+  margin-right: 80px;
+}
+
+/* Entrees */
+
+.entrees-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-entrees {
+  margin-right: 80px;
+}
+
+.right-entrees {
+  margin-right: 30px;
+}
+
+.entrees-header {
   font-size: 3vh;
   text-decoration: underline;
 }
 
+.entree-food {
+  text-decoration: underline;
+}
+
+/* Beverages */
+
 .beverages-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .left-beverage {
   margin-right: 80px;
 }
+
+/* Desserts */
+
+.desserts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-dessert {
+  margin-right: 80px;
+}
+
+/* All */
+.appetizer-header,
+.tacos-header,
+.desserts-header,
+.beverages-header {
+  font-size: 3vh;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.tacos-header,
+.desserts-header,
+.beverages-header {
+  margin-top: 75px;
+}
+
+.food,
+.entree-food,
+.description {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+}
+
+/* CONTACT SECTION */
+
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 10vh;
+  margin-bottom: 15px;
+}
+
+#contact-container p {
+  font-size: 4vh;
+  text-align: center;
+}
+
+#contact-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-container input {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contact-container #message {
+  /* height: 200px; */
+  width: 500px;
+}
+
+/* #contact-container ::placeholder {
+  vertical-align: text-top;
+} */
