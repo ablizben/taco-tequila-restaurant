@@ -83,19 +83,7 @@ body {
 }
 /*# sourceMappingURL=menu.css.map */
 
-/* About Section */
-
-#about-us-container {
-  display: flex;
-}
-
-.about-us-header {
-  width: 50%;
-}
-
-.right-container {
-  width: 50%;
-}
+/* Home Section */
 
 .top-left-first {
   color: white;
@@ -114,11 +102,26 @@ body {
 }
 
 .bottom-left {
-  color: white;
+  color: black;
   position: absolute;
   left: 16px;
   font-size: 30px;
   top: 450px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+/* About Section */
+
+#about-us-container {
+  display: flex;
+}
+
+.about-us-header {
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
 }
 
 /* Menu Section */
@@ -294,3 +297,52 @@ body {
 /* #contact-container ::placeholder {
   vertical-align: text-top;
 } */
+
+/* Media Queries  */
+
+@media only screen and (min-width: 600px) {
+  .top-left-first {
+    /* position: absolute;
+      top: 8px;
+      left: 16px; */
+    font-size: 110px;
+  }
+
+  .top-left-second {
+    /* position: absolute;
+      top: 120px;
+      left: 16px; */
+    font-size: 110px;
+  }
+
+  .bottom-left {
+    color: white;
+    position: absolute;
+    left: 16px;
+    top: 350px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top-left-first {
+    /* position: absolute;
+      top: 8px;
+      left: 16px; */
+    font-size: 80px;
+  }
+
+  .top-left-second {
+    /* position: absolute;
+      top: 120px;
+      left: 16px; */
+    font-size: 80px;
+  }
+
+  .bottom-left {
+    /* position: absolute;
+    left: 16px; */
+    top: 250px;
+    font-size: 15px;
+  }
+}
