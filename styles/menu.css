@@ -60,6 +60,11 @@ html,
   color: white;
 }
 
+.navigation.scrolled {
+  background-color: #b94335 !important;
+  transition: background-color 200ms linear;
+}
+
 /* .navbar.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
@@ -70,17 +75,10 @@ html,
 .top-left-first {
   color: white;
   position: absolute;
-  top: 8px;
+  top: 145px;
   left: 16px;
   font-size: 150px;
-}
-
-.top-left-second {
-  color: white;
-  position: absolute;
-  left: 16px;
-  font-size: 150px;
-  top: 120px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .bottom-left {
@@ -88,8 +86,7 @@ html,
   position: absolute;
   left: 16px;
   font-size: 30px;
-  top: 450px;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Lato";
 }
 
 /* About Section */
